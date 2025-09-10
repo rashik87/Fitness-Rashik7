@@ -1,6 +1,4 @@
-
 {
-
   "name": "fitness-rashik-vercel",
   "version": "0.1.0",
   "private": true,
@@ -20,6 +18,6 @@
     "@types/react-dom": "^19.0.0"
   }
 }
-4"
+
+
   
-}
