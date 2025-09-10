@@ -1,0 +1,215 @@
+[
+    {
+        "id": "pre_recipe_1",
+        "userId": null,
+        "name": "أومليت السبانخ والجبن الكيتوني",
+        "description": "فطور سريع وغني بالبروتين والدهون الصحية، مثالي لبداية يوم كيتوني.",
+        "category": "breakfast",
+        "tags": ["keto", "low_carb", "high_protein", "vegetarian"],
+        "servings": 1,
+        "ingredients": [
+            { "foodItemId": "pre_11", "foodItemName": "بيض", "quantityGram": 150, "originalServingSize": "100 جرام (حوالي بيضتين)", "calories": 232.5, "protein": 19.5, "carbs": 1.65, "fat": 16.5 },
+            { "foodItemId": "pre_18", "foodItemName": "جبنة شيدر", "quantityGram": 30, "originalServingSize": "100 جرام", "calories": 121.2, "protein": 7.5, "carbs": 0.39, "fat": 9.9 },
+            { "foodItemId": "pre_41", "foodItemName": "سبانخ", "quantityGram": 50, "originalServingSize": "100 جرام", "calories": 11.5, "protein": 1.45, "carbs": 1.8, "fat": 0.2 },
+            { "foodItemId": "pre_81", "foodItemName": "زيت زيتون", "quantityGram": 5, "originalServingSize": "100 جرام", "calories": 44.2, "protein": 0, "carbs": 0, "fat": 5 }
+        ],
+        "totalMacros": { "calories": 409.4, "protein": 28.45, "carbs": 3.84, "fat": 31.6 },
+        "perServingMacros": { "calories": 409.4, "protein": 28.45, "carbs": 3.84, "fat": 31.6 },
+        "isCustom": false,
+        "createdAt": "2023-10-26T10:00:00.000Z"
+    },
+    {
+        "id": "pre_recipe_2",
+        "userId": null,
+        "name": "شوفان عالي البروتين بالتوت",
+        "description": "وجبة فطور مشبعة ومليئة بالطاقة، معززة بالبروتين ومضادات الأكسدة من التوت.",
+        "category": "breakfast",
+        "tags": ["high_protein", "vegetarian"],
+        "servings": 1,
+        "ingredients": [
+            { "foodItemId": "pre_23", "foodItemName": "شوفان", "quantityGram": 50, "originalServingSize": "100 جرام", "calories": 194.5, "protein": 8.45, "carbs": 33, "fat": 3.45 },
+            { "foodItemId": "pre_91", "foodItemName": "بروتين مصل اللبن (واي بروتين)", "quantityGram": 30, "originalServingSize": "100 جرام", "calories": 112.5, "protein": 22.5, "carbs": 2.49, "fat": 1.26 },
+            { "foodItemId": "pre_60", "foodItemName": "توت أزرق", "quantityGram": 50, "originalServingSize": "100 جرام", "calories": 28.5, "protein": 0.35, "carbs": 7, "fat": 0.15 },
+            { "foodItemId": "pre_75", "foodItemName": "بذور الشيا", "quantityGram": 10, "originalServingSize": "100 جرام", "calories": 48.6, "protein": 1.7, "carbs": 4.2, "fat": 3.1 }
+        ],
+        "totalMacros": { "calories": 384.1, "protein": 33, "carbs": 46.69, "fat": 7.96 },
+        "perServingMacros": { "calories": 384.1, "protein": 33, "carbs": 46.69, "fat": 7.96 },
+        "isCustom": false,
+        "createdAt": "2023-10-26T10:01:00.000Z"
+    },
+    {
+        "id": "pre_recipe_3",
+        "userId": null,
+        "name": "سلطة دجاج سيزر صحية",
+        "description": "نسخة صحية من سلطة السيزر الكلاسيكية، بصلصة الزبادي اليوناني الغنية بالبروتين.",
+        "category": "lunch",
+        "tags": ["low_carb", "high_protein"],
+        "servings": 1,
+        "ingredients": [
+            { "foodItemId": "pre_1", "foodItemName": "صدر دجاج بدون جلد", "quantityGram": 150, "originalServingSize": "100 جرام", "calories": 247.5, "protein": 46.5, "carbs": 0, "fat": 5.4 },
+            { "foodItemId": "pre_44", "foodItemName": "خس", "quantityGram": 100, "originalServingSize": "100 جرام", "calories": 15, "protein": 1.4, "carbs": 2.9, "fat": 0.2 },
+            { "foodItemId": "pre_15", "foodItemName": "زبادي يوناني", "quantityGram": 50, "originalServingSize": "100 جرام", "calories": 29.5, "protein": 5, "carbs": 1.8, "fat": 0.2 },
+            { "foodItemId": "pre_111", "foodItemName": "جبنة بارميزان", "quantityGram": 10, "originalServingSize": "100 جرام", "calories": 43.1, "protein": 3.8, "carbs": 0.41, "fat": 2.9 }
+        ],
+        "totalMacros": { "calories": 335.1, "protein": 56.7, "carbs": 5.11, "fat": 8.7 },
+        "perServingMacros": { "calories": 335.1, "protein": 56.7, "carbs": 5.11, "fat": 8.7 },
+        "isCustom": false,
+        "createdAt": "2023-10-26T10:02:00.000Z"
+    },
+    {
+        "id": "pre_recipe_4",
+        "userId": null,
+        "name": "سلمون مشوي مع البروكلي",
+        "description": "وجبة عشاء غنية بالأوميغا 3 والبروتين، بسيطة وسريعة التحضير.",
+        "category": "dinner",
+        "tags": ["keto", "low_carb", "high_protein"],
+        "servings": 1,
+        "ingredients": [
+            { "foodItemId": "pre_3", "foodItemName": "سلمون", "quantityGram": 150, "originalServingSize": "100 جرام", "calories": 312, "protein": 30, "carbs": 0, "fat": 19.5 },
+            { "foodItemId": "pre_36", "foodItemName": "بروكلي", "quantityGram": 200, "originalServingSize": "100 جرام", "calories": 68, "protein": 5.6, "carbs": 14, "fat": 0.8 },
+            { "foodItemId": "pre_81", "foodItemName": "زيت زيتون", "quantityGram": 10, "originalServingSize": "100 جرام", "calories": 88.4, "protein": 0, "carbs": 0, "fat": 10 }
+        ],
+        "totalMacros": { "calories": 468.4, "protein": 35.6, "carbs": 14, "fat": 30.3 },
+        "perServingMacros": { "calories": 468.4, "protein": 35.6, "carbs": 14, "fat": 30.3 },
+        "isCustom": false,
+        "createdAt": "2023-10-26T10:03:00.000Z"
+    },
+    {
+        "id": "pre_recipe_5",
+        "userId": null,
+        "name": "زبادي يوناني باللوز والتوت",
+        "description": "وجبة خفيفة ومثالية بعد التمرين، تجمع بين البروتين والدهون الصحية والكربوهيدرات البسيطة.",
+        "category": "snack",
+        "tags": ["high_protein", "vegetarian"],
+        "servings": 1,
+        "ingredients": [
+            { "foodItemId": "pre_15", "foodItemName": "زبادي يوناني", "quantityGram": 150, "originalServingSize": "100 جرام", "calories": 88.5, "protein": 15, "carbs": 5.4, "fat": 0.6 },
+            { "foodItemId": "pre_71", "foodItemName": "لوز", "quantityGram": 20, "originalServingSize": "100 جرام", "calories": 115.8, "protein": 4.2, "carbs": 4.4, "fat": 9.8 },
+            { "foodItemId": "pre_55", "foodItemName": "فراولة", "quantityGram": 50, "originalServingSize": "100 جرام", "calories": 16, "protein": 0.35, "carbs": 4, "fat": 0.15 }
+        ],
+        "totalMacros": { "calories": 220.3, "protein": 19.55, "carbs": 13.8, "fat": 10.55 },
+        "perServingMacros": { "calories": 220.3, "protein": 19.55, "carbs": 13.8, "fat": 10.55 },
+        "isCustom": false,
+        "createdAt": "2023-10-26T10:04:00.000Z"
+    },
+    {
+        "id": "pre_recipe_6", "userId": null, "name": "بانكيك البروتين بالموز", "description": "بانكيك صحي ولذيذ بدون دقيق، مثالي لوجبة فطور غنية بالبروتين.", "category": "breakfast", "tags": ["high_protein"], "servings": 1,
+        "ingredients": [
+            { "foodItemId": "pre_91", "foodItemName": "بروتين مصل اللبن (واي بروتين)", "quantityGram": 30, "originalServingSize": "100 جرام", "calories": 112.5, "protein": 22.5, "carbs": 2.49, "fat": 1.26 },
+            { "foodItemId": "pre_12", "foodItemName": "بياض البيض", "quantityGram": 100, "originalServingSize": "100 جرام", "calories": 52, "protein": 11, "carbs": 0.7, "fat": 0.2 },
+            { "foodItemId": "pre_53", "foodItemName": "موز", "quantityGram": 50, "originalServingSize": "100 جرام", "calories": 44.5, "protein": 0.55, "carbs": 11.5, "fat": 0.15 }
+        ],
+        "totalMacros": { "calories": 209, "protein": 34.05, "carbs": 14.69, "fat": 1.61 },
+        "perServingMacros": { "calories": 209, "protein": 34.05, "carbs": 14.69, "fat": 1.61 },
+        "isCustom": false, "createdAt": "2023-10-26T10:05:00.000Z"
+    },
+    {
+        "id": "pre_recipe_7", "userId": null, "name": "شوربة العدس النباتية", "description": "شوربة عدس غنية ودافئة، مصدر ممتاز للبروتين النباتي والألياف.", "category": "lunch", "tags": ["vegetarian", "high_protein"], "servings": 2,
+        "ingredients": [
+            { "foodItemId": "pre_31", "foodItemName": "عدس (مطبوخ)", "quantityGram": 400, "originalServingSize": "100 جرام", "calories": 464, "protein": 36, "carbs": 80, "fat": 1.6 },
+            { "foodItemId": "pre_40", "foodItemName": "جزر", "quantityGram": 100, "originalServingSize": "100 جرام", "calories": 41, "protein": 0.9, "carbs": 10, "fat": 0.2 },
+            { "foodItemId": "pre_39", "foodItemName": "بصل", "quantityGram": 100, "originalServingSize": "100 جرام", "calories": 40, "protein": 1.1, "carbs": 9.3, "fat": 0.1 },
+            { "foodItemId": "pre_81", "foodItemName": "زيت زيتون", "quantityGram": 10, "originalServingSize": "100 جرام", "calories": 88.4, "protein": 0, "carbs": 0, "fat": 10 }
+        ],
+        "totalMacros": { "calories": 633.4, "protein": 38, "carbs": 99.3, "fat": 11.9 },
+        "perServingMacros": { "calories": 316.7, "protein": 19, "carbs": 49.65, "fat": 5.95 },
+        "isCustom": false, "createdAt": "2023-10-26T10:06:00.000Z"
+    },
+    {
+        "id": "pre_recipe_8", "userId": null, "name": "ستيك لحم بقري مع الهليون", "description": "وجبة عشاء فاخرة وقليلة الكربوهيدرات، مثالية لمحبي اللحوم.", "category": "dinner", "tags": ["keto", "low_carb", "high_protein"], "servings": 1,
+        "ingredients": [
+            { "foodItemId": "pre_108", "foodItemName": "لحم بقري (ستيك)", "quantityGram": 200, "originalServingSize": "100 جرام", "calories": 542, "protein": 58, "carbs": 0, "fat": 34 },
+            { "foodItemId": "pre_162", "foodItemName": "اسبرجس (هليون)", "quantityGram": 150, "originalServingSize": "100 جرام", "calories": 30, "protein": 3.3, "carbs": 5.85, "fat": 0.15 },
+            { "foodItemId": "pre_20", "foodItemName": "زبدة", "quantityGram": 10, "originalServingSize": "100 جرام", "calories": 71.7, "protein": 0.09, "carbs": 0.01, "fat": 8.1 }
+        ],
+        "totalMacros": { "calories": 643.7, "protein": 61.39, "carbs": 5.86, "fat": 42.25 },
+        "perServingMacros": { "calories": 643.7, "protein": 61.39, "carbs": 5.86, "fat": 42.25 },
+        "isCustom": false, "createdAt": "2023-10-26T10:07:00.000Z"
+    },
+    {
+        "id": "pre_recipe_9", "userId": null, "name": "كرات الطاقة بالشوفان وزبدة الفول السوداني", "description": "سناك سريع وصحي يمنحك طاقة فورية، سهل التحضير ولا يحتاج إلى خبز.", "category": "snack", "tags": ["vegetarian"], "servings": 4,
+        "ingredients": [
+            { "foodItemId": "pre_23", "foodItemName": "شوفان", "quantityGram": 100, "originalServingSize": "100 جرام", "calories": 389, "protein": 16.9, "carbs": 66, "fat": 6.9 },
+            { "foodItemId": "pre_74", "foodItemName": "زبدة الفول السوداني", "quantityGram": 60, "originalServingSize": "100 جرام", "calories": 352.8, "protein": 15, "carbs": 12, "fat": 30 },
+            { "foodItemId": "pre_102", "foodItemName": "عسل", "quantityGram": 40, "originalServingSize": "100 جرام", "calories": 121.6, "protein": 0.12, "carbs": 32.8, "fat": 0 }
+        ],
+        "totalMacros": { "calories": 863.4, "protein": 32.02, "carbs": 110.8, "fat": 36.9 },
+        "perServingMacros": { "calories": 215.85, "protein": 8, "carbs": 27.7, "fat": 9.23 },
+        "isCustom": false, "createdAt": "2023-10-26T10:08:00.000Z"
+    },
+    {
+        "id": "pre_recipe_10", "userId": null, "name": "فطور الأفوكادو والبيض", "description": "فطور كيتوني بسيط ومغذي يجمع بين الدهون الصحية والبروتين ليبقيك شبعانًا.", "category": "breakfast", "tags": ["keto", "low_carb", "vegetarian"], "servings": 1,
+        "ingredients": [
+            { "foodItemId": "pre_51", "foodItemName": "أفوكادو", "quantityGram": 100, "originalServingSize": "100 جرام", "calories": 160, "protein": 2, "carbs": 8.5, "fat": 15 },
+            { "foodItemId": "pre_11", "foodItemName": "بيض", "quantityGram": 100, "originalServingSize": "100 جرام (حوالي بيضتين)", "calories": 155, "protein": 13, "carbs": 1.1, "fat": 11 }
+        ],
+        "totalMacros": { "calories": 315, "protein": 15, "carbs": 9.6, "fat": 26 },
+        "perServingMacros": { "calories": 315, "protein": 15, "carbs": 9.6, "fat": 26 },
+        "isCustom": false, "createdAt": "2023-10-26T10:09:00.000Z"
+    },
+    {
+        "id": "pre_recipe_11", "userId": null, "name": "سلطة الكينوا والحمص النباتية", "description": "سلطة منعشة ومليئة بالبروتين النباتي الكامل، مثالية لوجبة غداء خفيفة.", "category": "lunch", "tags": ["vegetarian", "high_protein"], "servings": 2,
+        "ingredients": [
+            { "foodItemId": "pre_30", "foodItemName": "كينوا (مطبوخة)", "quantityGram": 200, "originalServingSize": "100 جرام", "calories": 240, "protein": 8.8, "carbs": 42.6, "fat": 3.8 },
+            { "foodItemId": "pre_32", "foodItemName": "حمص (مطبوخ)", "quantityGram": 150, "originalServingSize": "100 جرام", "calories": 246, "protein": 13.35, "carbs": 41.1, "fat": 3.9 },
+            { "foodItemId": "pre_37", "foodItemName": "طماطم", "quantityGram": 100, "originalServingSize": "100 جرام", "calories": 18, "protein": 0.9, "carbs": 3.9, "fat": 0.2 },
+            { "foodItemId": "pre_38", "foodItemName": "خيار", "quantityGram": 100, "originalServingSize": "100 جرام", "calories": 15, "protein": 0.7, "carbs": 3.6, "fat": 0.1 }
+        ],
+        "totalMacros": { "calories": 519, "protein": 23.75, "carbs": 91.2, "fat": 8 },
+        "perServingMacros": { "calories": 259.5, "protein": 11.88, "carbs": 45.6, "fat": 4 },
+        "isCustom": false, "createdAt": "2023-10-26T10:10:00.000Z"
+    },
+    {
+        "id": "pre_recipe_12", "userId": null, "name": "دجاج بالكاري وحليب جوز الهند", "description": "طبق دجاج غني بنكهة الكاري وحليب جوز الهند الكريمي، قليل الكربوهيدرات.", "category": "dinner", "tags": ["keto", "low_carb", "high_protein"], "servings": 2,
+        "ingredients": [
+            { "foodItemId": "pre_1", "foodItemName": "صدر دجاج بدون جلد", "quantityGram": 300, "originalServingSize": "100 جرام", "calories": 495, "protein": 93, "carbs": 0, "fat": 10.8 },
+            { "foodItemId": "pre_152", "foodItemName": "حليب جوز الهند", "quantityGram": 200, "originalServingSize": "100 مل", "calories": 460, "protein": 4.6, "carbs": 11, "fat": 48 },
+            { "foodItemId": "pre_39", "foodItemName": "بصل", "quantityGram": 100, "originalServingSize": "100 جرام", "calories": 40, "protein": 1.1, "carbs": 9.3, "fat": 0.1 }
+        ],
+        "totalMacros": { "calories": 995, "protein": 98.7, "carbs": 20.3, "fat": 58.9 },
+        "perServingMacros": { "calories": 497.5, "protein": 49.35, "carbs": 10.15, "fat": 29.45 },
+        "isCustom": false, "createdAt": "2023-10-26T10:11:00.000Z"
+    },
+    {
+        "id": "pre_recipe_13", "userId": null, "name": "سموثي الفراولة والموز بالبروتين", "description": "مشروب منعش ومثالي كوجبة خفيفة أو بعد التمرين.", "category": "snack", "tags": ["high_protein", "vegetarian"], "servings": 1,
+        "ingredients": [
+            { "foodItemId": "pre_91", "foodItemName": "بروتين مصل اللبن (واي بروتين)", "quantityGram": 30, "originalServingSize": "100 جرام", "calories": 112.5, "protein": 22.5, "carbs": 2.49, "fat": 1.26 },
+            { "foodItemId": "pre_55", "foodItemName": "فراولة", "quantityGram": 100, "originalServingSize": "100 جرام", "calories": 32, "protein": 0.7, "carbs": 8, "fat": 0.3 },
+            { "foodItemId": "pre_53", "foodItemName": "موز", "quantityGram": 50, "originalServingSize": "100 جرام", "calories": 44.5, "protein": 0.55, "carbs": 11.5, "fat": 0.15 },
+            { "foodItemId": "pre_14", "foodItemName": "حليب قليل الدسم", "quantityGram": 150, "originalServingSize": "100 مل", "calories": 63, "protein": 5.1, "carbs": 7.5, "fat": 1.5 }
+        ],
+        "totalMacros": { "calories": 252, "protein": 28.85, "carbs": 29.49, "fat": 3.21 },
+        "perServingMacros": { "calories": 252, "protein": 28.85, "carbs": 29.49, "fat": 3.21 },
+        "isCustom": false, "createdAt": "2023-10-26T10:12:00.000Z"
+    },
+    {
+        "id": "pre_recipe_14", "userId": null, "name": "بيض مخفوق مع السلمون المدخن", "description": "فطور فاخر وغني بالبروتين والأوميغا 3.", "category": "breakfast", "tags": ["keto", "low_carb", "high_protein"], "servings": 1,
+        "ingredients": [
+            { "foodItemId": "pre_11", "foodItemName": "بيض", "quantityGram": 100, "originalServingSize": "100 جرام (حوالي بيضتين)", "calories": 155, "protein": 13, "carbs": 1.1, "fat": 11 },
+            { "foodItemId": "pre_3", "foodItemName": "سلمون", "quantityGram": 50, "originalServingSize": "100 جرام", "calories": 104, "protein": 10, "carbs": 0, "fat": 6.5 }
+        ],
+        "totalMacros": { "calories": 259, "protein": 23, "carbs": 1.1, "fat": 17.5 },
+        "perServingMacros": { "calories": 259, "protein": 23, "carbs": 1.1, "fat": 17.5 },
+        "isCustom": false, "createdAt": "2023-10-26T10:13:00.000Z"
+    },
+    {
+        "id": "pre_recipe_15", "userId": null, "name": "دجاج مشوي مع البطاطا الحلوة", "description": "وجبة متوازنة ومثالية لبعد التمارين، تجمع بين البروتين والكربوهيدرات المعقدة.", "category": "dinner", "tags": ["high_protein"], "servings": 1,
+        "ingredients": [
+            { "foodItemId": "pre_1", "foodItemName": "صدر دجاج بدون جلد", "quantityGram": 200, "originalServingSize": "100 جرام", "calories": 330, "protein": 62, "carbs": 0, "fat": 7.2 },
+            { "foodItemId": "pre_25", "foodItemName": "بطاطا حلوة", "quantityGram": 200, "originalServingSize": "100 جرام", "calories": 172, "protein": 3.2, "carbs": 40, "fat": 0.2 }
+        ],
+        "totalMacros": { "calories": 502, "protein": 65.2, "carbs": 40, "fat": 7.4 },
+        "perServingMacros": { "calories": 502, "protein": 65.2, "carbs": 40, "fat": 7.4 },
+        "isCustom": false, "createdAt": "2023-10-26T10:14:00.000Z"
+    },
+    { "id": "pre_recipe_16", "userId": null, "name": "سلطة تونة بالأفوكادو", "description": "بديل صحي لسلطة التونة بالمايونيز، غنية بالدهون الصحية والبروتين.", "category": "lunch", "tags": ["keto", "low_carb", "high_protein"], "servings": 1, "ingredients": [{ "foodItemId": "pre_4", "foodItemName": "تونة (معلبة في الماء)", "quantityGram": 100, "originalServingSize": "100 جرام", "calories": 116, "protein": 26, "carbs": 0, "fat": 1 }, { "foodItemId": "pre_51", "foodItemName": "أفوكادو", "quantityGram": 70, "originalServingSize": "100 جرام", "calories": 112, "protein": 1.4, "carbs": 5.95, "fat": 10.5 }], "totalMacros": { "calories": 228, "protein": 27.4, "carbs": 5.95, "fat": 11.5 }, "perServingMacros": { "calories": 228, "protein": 27.4, "carbs": 5.95, "fat": 11.5 }, "isCustom": false, "createdAt": "2023-10-26T10:15:00.000Z" },
+    { "id": "pre_recipe_17", "userId": null, "name": "مخفوق الشوكولاتة والأفوكادو الكيتوني", "description": "مخفوق كريمي ولذيذ بدون سكر مضاف، مثالي كحلوى كيتونية.", "category": "snack", "tags": ["keto", "low_carb", "vegetarian"], "servings": 1, "ingredients": [{ "foodItemId": "pre_51", "foodItemName": "أفوكادو", "quantityGram": 80, "originalServingSize": "100 جرام", "calories": 128, "protein": 1.6, "carbs": 6.8, "fat": 12 }, { "foodItemId": "pre_91", "foodItemName": "بروتين مصل اللبن (واي بروتين)", "quantityGram": 25, "originalServingSize": "100 جرام", "calories": 93.75, "protein": 18.75, "carbs": 2.08, "fat": 1.05 }, { "foodItemId": "pre_153", "foodItemName": "حليب اللوز", "quantityGram": 150, "originalServingSize": "100 مل", "calories": 22.5, "protein": 0.75, "carbs": 0.9, "fat": 1.8 }], "totalMacros": { "calories": 244.25, "protein": 21.1, "carbs": 9.78, "fat": 14.85 }, "perServingMacros": { "calories": 244.25, "protein": 21.1, "carbs": 9.78, "fat": 14.85 }, "isCustom": false, "createdAt": "2023-10-26T10:16:00.000Z" },
+    { "id": "pre_recipe_18", "userId": null, "name": "لحم مفروم مع فاصوليا سوداء", "description": "وجبة غداء اقتصادية ومشبعة، تجمع بين البروتين الحيواني والنباتي.", "category": "lunch", "tags": ["high_protein"], "servings": 2, "ingredients": [{ "foodItemId": "pre_2", "foodItemName": "لحم بقري مفروم (قليل الدهن)", "quantityGram": 250, "originalServingSize": "100 جرام", "calories": 625, "protein": 65, "carbs": 0, "fat": 37.5 }, { "foodItemId": "pre_34", "foodItemName": "فاصوليا سوداء (مطبوخة)", "quantityGram": 200, "originalServingSize": "100 جرام", "calories": 264, "protein": 17.8, "carbs": 47.4, "fat": 1 }], "totalMacros": { "calories": 889, "protein": 82.8, "carbs": 47.4, "fat": 38.5 }, "perServingMacros": { "calories": 444.5, "protein": 41.4, "carbs": 23.7, "fat": 19.25 }, "isCustom": false, "createdAt": "2023-10-26T10:17:00.000Z" },
+    { "id": "pre_recipe_19", "userId": null, "name": "بودينغ الشيا الليلي", "description": "حضّره في الليل واستمتع بوجبة فطور صحية وجاهزة في الصباح.", "category": "breakfast", "tags": ["vegetarian"], "servings": 1, "ingredients": [{ "foodItemId": "pre_75", "foodItemName": "بذور الشيا", "quantityGram": 30, "originalServingSize": "100 جرام", "calories": 145.8, "protein": 5.1, "carbs": 12.6, "fat": 9.3 }, { "foodItemId": "pre_153", "foodItemName": "حليب اللوز", "quantityGram": 200, "originalServingSize": "100 مل", "calories": 30, "protein": 1, "carbs": 1.2, "fat": 2.4 }], "totalMacros": { "calories": 175.8, "protein": 6.1, "carbs": 13.8, "fat": 11.7 }, "perServingMacros": { "calories": 175.8, "protein": 6.1, "carbs": 13.8, "fat": 11.7 }, "isCustom": false, "createdAt": "2023-10-26T10:18:00.000Z" },
+    { "id": "pre_recipe_20", "userId": null, "name": "جمبري بالثوم والليمون", "description": "طبق عشاء سريع ولذيذ، قليل السعرات وغني بالبروتين.", "category": "dinner", "tags": ["low_carb", "high_protein"], "servings": 1, "ingredients": [{ "foodItemId": "pre_8", "foodItemName": "جمبري", "quantityGram": 200, "originalServingSize": "100 جرام", "calories": 170, "protein": 40.2, "carbs": 0, "fat": 1 }, { "foodItemId": "pre_134", "foodItemName": "ثوم", "quantityGram": 10, "originalServingSize": "100 جرام", "calories": 14.9, "protein": 0.64, "carbs": 3.31, "fat": 0.05 }, { "foodItemId": "pre_81", "foodItemName": "زيت زيتون", "quantityGram": 10, "originalServingSize": "100 جرام", "calories": 88.4, "protein": 0, "carbs": 0, "fat": 10 }], "totalMacros": { "calories": 273.3, "protein": 40.84, "carbs": 3.31, "fat": 11.05 }, "perServingMacros": { "calories": 273.3, "protein": 40.84, "carbs": 3.31, "fat": 11.05 }, "isCustom": false, "createdAt": "2023-10-26T10:19:00.000Z" },
+    { "id": "pre_recipe_21", "userId": null, "name": "تفاح مع زبدة الفول السوداني", "description": "سناك كلاسيكي يجمع بين حلاوة الفاكهة والبروتين من زبدة الفول السوداني.", "category": "snack", "tags": ["vegetarian"], "servings": 1, "ingredients": [{ "foodItemId": "pre_52", "foodItemName": "تفاح", "quantityGram": 150, "originalServingSize": "100 جرام", "calories": 78, "protein": 0.45, "carbs": 21, "fat": 0.3 }, { "foodItemId": "pre_74", "foodItemName": "زبدة الفول السوداني", "quantityGram": 30, "originalServingSize": "100 جرام", "calories": 176.4, "protein": 7.5, "carbs": 6, "fat": 15 }], "totalMacros": { "calories": 254.4, "protein": 7.95, "carbs": 27, "fat": 15.3 }, "perServingMacros": { "calories": 254.4, "protein": 7.95, "carbs": 27, "fat": 15.3 }, "isCustom": false, "createdAt": "2023-10-26T10:20:00.000Z" },
+    { "id": "pre_recipe_22", "userId": null, "name": "قهوة بروتين مثلجة", "description": "ابدأ يومك بجرعة من الكافيين والبروتين في مشروب واحد منعش.", "category": "breakfast", "tags": ["high_protein", "low_carb"], "servings": 1, "ingredients": [{ "foodItemId": "pre_91", "foodItemName": "بروتين مصل اللبن (واي بروتين)", "quantityGram": 30, "originalServingSize": "100 جرام", "calories": 112.5, "protein": 22.5, "carbs": 2.49, "fat": 1.26 }, { "foodItemId": "pre_92", "foodItemName": "قهوة سوداء", "quantityGram": 200, "originalServingSize": "100 مل", "calories": 2, "protein": 0.2, "carbs": 0, "fat": 0 }], "totalMacros": { "calories": 114.5, "protein": 22.7, "carbs": 2.49, "fat": 1.26 }, "perServingMacros": { "calories": 114.5, "protein": 22.7, "carbs": 2.49, "fat": 1.26 }, "isCustom": false, "createdAt": "2023-10-26T10:21:00.000Z" },
+    { "id": "pre_recipe_23", "userId": null, "name": "فاهيتا دجاج بالفلفل الملون", "description": "طبق مكسيكي صحي وملون، قليل الكربوهيدرات وغني بالنكهة.", "category": "lunch", "tags": ["low_carb", "high_protein"], "servings": 2, "ingredients": [{ "foodItemId": "pre_1", "foodItemName": "صدر دجاج بدون جلد", "quantityGram": 300, "originalServingSize": "100 جرام", "calories": 495, "protein": 93, "carbs": 0, "fat": 10.8 }, { "foodItemId": "pre_43", "foodItemName": "فلفل حلو (أحمر)", "quantityGram": 100, "originalServingSize": "100 جرام", "calories": 31, "protein": 1, "carbs": 6, "fat": 0.3 }, { "foodItemId": "pre_39", "foodItemName": "بصل", "quantityGram": 100, "originalServingSize": "100 جرام", "calories": 40, "protein": 1.1, "carbs": 9.3, "fat": 0.1 }], "totalMacros": { "calories": 566, "protein": 95.1, "carbs": 15.3, "fat": 11.2 }, "perServingMacros": { "calories": 283, "protein": 47.55, "carbs": 7.65, "fat": 5.6 }, "isCustom": false, "createdAt": "2023-10-26T10:22:00.000Z" },
+    { "id": "pre_recipe_24", "userId": null, "name": "كاري الحمص والسبانخ النباتي", "description": "طبق هندي نباتي غني بالنكهات والبروتين، مثالي لوجبة عشاء دافئة.", "category": "dinner", "tags": ["vegetarian", "high_protein"], "servings": 2, "ingredients": [{ "foodItemId": "pre_32", "foodItemName": "حمص (مطبوخ)", "quantityGram": 250, "originalServingSize": "100 جرام", "calories": 410, "protein": 22.25, "carbs": 68.5, "fat": 6.5 }, { "foodItemId": "pre_41", "foodItemName": "سبانخ", "quantityGram": 200, "originalServingSize": "100 جرام", "calories": 46, "protein": 5.8, "carbs": 7.2, "fat": 0.8 }, { "foodItemId": "pre_152", "foodItemName": "حليب جوز الهند", "quantityGram": 100, "originalServingSize": "100 مل", "calories": 230, "protein": 2.3, "carbs": 5.5, "fat": 24 }], "totalMacros": { "calories": 686, "protein": 30.35, "carbs": 81.2, "fat": 31.3 }, "perServingMacros": { "calories": 343, "protein": 15.18, "carbs": 40.6, "fat": 15.65 }, "isCustom": false, "createdAt": "2023-10-26T10:23:00.000Z" },
+    { "id": "pre_recipe_25", "userId": null, "name": "بيض مسلوق مع شرائح الخيار", "description": "وجبة خفيفة وسريعة غنية بالبروتين، مثالية للحفاظ على الشبع بين الوجبات.", "category": "snack", "tags": ["keto", "low_carb", "high_protein"], "servings": 1, "ingredients": [{ "foodItemId": "pre_11", "foodItemName": "بيض", "quantityGram": 100, "originalServingSize": "100 جرام (حوالي بيضتين)", "calories": 155, "protein": 13, "carbs": 1.1, "fat": 11 }, { "foodItemId": "pre_38", "foodItemName": "خيار", "quantityGram": 100, "originalServingSize": "100 جرام", "calories": 15, "protein": 0.7, "carbs": 3.6, "fat": 0.1 }], "totalMacros": { "calories": 170, "protein": 13.7, "carbs": 4.7, "fat": 11.1 }, "perServingMacros": { "calories": 170, "protein": 13.7, "carbs": 4.7, "fat": 11.1 }, "isCustom": false, "createdAt": "2023-10-26T10:24:00.000Z" }
+]
