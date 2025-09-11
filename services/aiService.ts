@@ -10,7 +10,7 @@ const getAi = (): GoogleGenAI => {
     const apiKey = process.env.GEMINI_API_KEY;
         console.log("Gemini Key:", process.env.GEMINI_API_KEY ? "Loaded ✅" : "Missing ❌");
         if (!apiKey) {
-            throw new Error("Gemini API Key not found. The API_KEY environment variable is not set.");
+            throw new Error("Gemini API Key not found. The GEMINI_API_KEY environment variable is not set.");
         }
         aiInstance = new GoogleGenAI({ apiKey });
     }
