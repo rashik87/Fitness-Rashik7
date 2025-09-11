@@ -1,10 +1,8 @@
 
 
-
-
 import { Gender, BodyCompositionResult } from '../types';
 
-// U.S. Navy Body Fat Formula
+// U.S. Navy Body Fat Formula (Hodgdon and Beckett, 1984)
 // All measurements in centimeters. Height in centimeters.
 export const calculateNavyBodyFatPercentage = (
     gender: Gender,
@@ -15,30 +13,26 @@ export const calculateNavyBodyFatPercentage = (
 ): number => {
     let percentage: number;
 
-    if (heightCm <= 0 || neckCm <=0 || waistCm <=0) return NaN; 
+    if (heightCm <= 0 || neckCm <= 0 || waistCm <= 0) return NaN;
 
     if (gender === Gender.MALE) {
-        // Formula applied as per user request: BF% = 86.010 * log10(waist - neck) - 70.041 * log10(height) + 36.76
-        if (waistCm - neckCm <= 0) { // Ensure waist - neck is positive for log10
-            return NaN; 
-        }
-        percentage = 86.010 * Math.log10(waistCm - neckCm) - 70.041 * Math.log10(heightCm) + 36.76;
+        // Standard formula using body density (Siri equation)
+        if (waistCm - neckCm <= 0) return NaN;
+        const density = 1.0324 - 0.19077 * Math.log10(waistCm - neckCm) + 0.15456 * Math.log10(heightCm);
+        percentage = (495 / density) - 450;
     } else { // FEMALE
-        if (!hipCm || hipCm <= 0) {
-            return NaN; // Hip measurement is crucial and must be positive for females
-        }
-        // Formula applied as per user request: BF% = 163.205 * log10(waist + hip - neck) - 97.684 * log10(height) - 78.387
-        if (waistCm + hipCm - neckCm <= 0) { // Ensure (waist + hip - neck) is positive
-            return NaN; 
-        }
-        percentage = 163.205 * Math.log10(waistCm + hipCm - neckCm) - 97.684 * Math.log10(heightCm) - 78.387;
+        if (!hipCm || hipCm <= 0) return NaN;
+        // Standard formula using body density (Siri equation)
+        if (waistCm + hipCm - neckCm <= 0) return NaN;
+        const density = 1.29579 - 0.35004 * Math.log10(waistCm + hipCm - neckCm) + 0.22100 * Math.log10(heightCm);
+        percentage = (495 / density) - 450;
     }
     
     const roundedPercentage = parseFloat(percentage.toFixed(1));
 
-    if (isNaN(roundedPercentage)) return NaN; // Propagate if calculation resulted in NaN (e.g. from log10 of bad height after primary checks)
+    if (isNaN(roundedPercentage)) return NaN;
     
-    return Math.max(0, Math.min(100, roundedPercentage)); // Clamp valid numbers between 0 and 100
+    return Math.max(0, Math.min(100, roundedPercentage));
 };
 
 
@@ -82,11 +76,11 @@ export const analyzeBodyComposition = (
     hipCm?: number
 ): BodyCompositionResult | string => {
 
-    // --- Step 1: Calculate BF₁ (Navy Method - 4%) ---
+    // --- Step 1: Calculate Base BF% (Navy Method) ---
     const rawNavyBf = calculateNavyBodyFatPercentage(gender, heightCm, neckCm, waistCm, hipCm);
     if (isNaN(rawNavyBf)) return "خطأ في حساب نسبة الدهون. تأكد من أن القياسات المدخلة منطقية (مثال: محيط الخصر أكبر من محيط الرقبة للرجال).";
     
-    const bf1 = Math.max(2, rawNavyBf - 4);
+    const bf1 = Math.max(2, rawNavyBf);
 
     // --- Step 2: Calculate BF₂ (FFMI-corrected BF) ---
     const heightInMeters = heightCm / 100;
