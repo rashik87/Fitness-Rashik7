@@ -1,0 +1,9 @@
+// api/testEnv.ts
+export default function handler(req: Request): Response {
+  return new Response(
+    JSON.stringify({
+      GEMINI_API_KEY: process.env.GEMINI_API_KEY ? "Loaded ?" : "Missing ?",
+    }),
+    { status: 200, headers: { "Content-Type": "application/json" } }
+  );
+}
