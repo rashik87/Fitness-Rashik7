@@ -4,21 +4,17 @@ import { GoogleGenAI } from "@google/genai";
 let aiInstance: GoogleGenAI | null = null;
 
 export const getAi = (): GoogleGenAI => {
-    if (!aiInstance) {
-      const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
-        console.log("GEMINI_API_KEY =", process.env.GEMINI_API_KEY ? "Loaded ✅" : "Missing ❌");
-        console.log("API_KEY =", process.env.API_KEY ? "Loaded ✅" : "Missing ❌");
+  if (!aiInstance) {
+    const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
 
-        if (!apiKey) {
-            throw new Error(
-                "Gemini API Key not found! ⚠️\n" +
-                "تأكد من إضافة GEMINI_API_KEY أو API_KEY في متغيرات البيئة (.env.local أو Vercel Environment Variables)."
-            );
-        }
-
-        aiInstance = new GoogleGenAI({ apiKey });
+    if (!apiKey) {
+      throw new Error(
+        "❌ Gemini API Key not found! تأكد أن VITE_GEMINI_API_KEY موجود في .env.local أو في Vercel."
+      );
     }
 
-    return aiInstance;
-};
+    aiInstance = new GoogleGenAI({ apiKey });
+  }
 
+  return aiInstance;
+};
