@@ -58,6 +58,7 @@ import ContactUsView from './legal/ContactUsView';
 import IdealBodyFatCalculatorView from './IdealBodyFatCalculatorView';
 import BodyCompositionAnalysisView from './BodyCompositionAnalysisView';
 import SubscriptionView from './SubscriptionView';
+import { askGemini } from "@/lib/chats";
 
 const MoreScreenView: React.FC<{
     setCurrentView: (view: AppView) => void;
