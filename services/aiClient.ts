@@ -5,8 +5,7 @@ let aiInstance: GoogleGenAI | null = null;
 
 export const getAi = (): GoogleGenAI => {
     if (!aiInstance) {
-        const apiKey = process.env.GEMINI_API_KEY || process.env.API_KEY;
-
+      const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
         console.log("GEMINI_API_KEY =", process.env.GEMINI_API_KEY ? "Loaded ✅" : "Missing ❌");
         console.log("API_KEY =", process.env.API_KEY ? "Loaded ✅" : "Missing ❌");
 
